@@ -6,4 +6,7 @@ $(function () {
         arrows: false,
         dots: true,
     });
+
+    // Hover to link 
+
 })
