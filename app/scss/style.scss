@@ -14,10 +14,29 @@
     justify-content: space-between;
     align-items: center;
     height: 76px;
+    background: #ffffff;
     &__menu-link{
         margin-left: 24px;
         position: relative;
         padding-bottom: 7px;
+    }
+    &__btn{
+        padding: 0;
+        border: none;
+        background: none;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+        display: none;
+        span{
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #000000;
+        }
     }
 }
 
@@ -173,6 +192,7 @@
     background-size: cover;
     color: #ffffff;
     margin-bottom: 120px;
+    text-align: center;
     &__title{
         font-size: 66px;
         line-height: 70px;
@@ -242,6 +262,7 @@
         font-size: 13px;
         letter-spacing: 1.4px;
         padding-top: 25px;
+        display: block;
     }
 }
 
@@ -329,3 +350,7 @@
         }
     }
 }
+
+
+// Media query
+@import 'media';
